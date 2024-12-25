@@ -1,1 +1,5 @@
-# Pyspark-bank-fraud-detection
+# Integrating Explainable AI and Stacking Classifiers for Scalable Fraud Detection with PySpark
+
+In the banking industry, fraudulent transactions provide serious difficulties. They frequently involve identity theft, tampering with transactions, and unauthorised account access, and they cause large financial losses for both customers and institutions. Because of the dynamic nature of fraud patterns, it is difficult to detect such fraud in a continually changing environment. In order to solve the problem, this study uses
+Apache Pypark for scalability in processing vast amounts of data while examining transaction behaviours, customer information, and device information. To identify fraud, a variety of machine learning models were used, such as Support Vector Machines, Decision Trees, and Gradient Boosting. The Synthetic Minority Over-sampling Technique (SMOTE) was used to address the dataset’s class imbalance. The top-performing models were
+merged into a stacking ensemble and improved with LIME for interpretability. This meta-model outperformed individual models with high accuracy, precision, recall and f1-score values of 0.876. This method increases the model’s transparency and performance, which increases its dependability for practical fraud detection applications.
